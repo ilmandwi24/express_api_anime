@@ -4,7 +4,6 @@
  */
 
 module.exports = {
-  
   // Automatically clear mock calls, instances and results before every test
   clearMocks: true,
 

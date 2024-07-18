@@ -23,8 +23,6 @@ const getAllAnime = async (req, res) => {
     // return response success
     return res.send(data);
   } catch (error) {
-    // return response error
-    console.log(error)
     CommonHelper.log(['Anime', 'Get All Anime', 'ERROR'], {
       message: `${error}`,
       transaction_id: req.headers.transaction_id
@@ -59,7 +57,7 @@ const detailAnimeById = async(req,res)=>{
     // return response success
     return res.send(data);
   } catch (error) {
-    CommonHelper.log(['Anime', 'Search Anime', 'ERROR'], {
+    CommonHelper.log(['Anime', 'Detail Anime', 'ERROR'], {
       message: `${error}`,
       transaction_id: req.headers.transaction_id
     });
@@ -76,7 +74,7 @@ const filterAnime = async (req,res) =>{
     // return response success
     return res.send(data);
   } catch (error) {
-    CommonHelper.log(['Anime', 'Search Anime', 'ERROR'], {
+    CommonHelper.log(['Anime', 'Filter Anime', 'ERROR'], {
       message: `${error}`,
       transaction_id: req.headers.transaction_id
     });
@@ -93,7 +91,7 @@ const seasonAnime = async (req,res)=>{
     // return response success
     return res.send(data);
   } catch (error) {
-    CommonHelper.log(['Anime', 'Search Anime', 'ERROR'], {
+    CommonHelper.log(['Anime', 'Season Anime', 'ERROR'], {
       message: `${error}`,
       transaction_id: req.headers.transaction_id
     });
@@ -110,7 +108,7 @@ const yearAnime = async (req,res)=>{
     // return response success
     return res.send(data);
   } catch (error) {
-    CommonHelper.log(['Anime', 'Search Anime', 'ERROR'], {
+    CommonHelper.log(['Anime', 'Year Anime', 'ERROR'], {
       message: `${error}`,
       transaction_id: req.headers.transaction_id
     });

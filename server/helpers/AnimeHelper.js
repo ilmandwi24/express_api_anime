@@ -3,27 +3,29 @@ const Boom = require('boom');
 const CommonHelper = require('./CommonHelper');
 const GeneralHelper = require('./GeneralHelper');
 
-const ANIME_DATA = Path.join(__dirname, '../../assets/anime.json');
-
-const getAnimeListName = async () => {
-  try {
-    const data = await GeneralHelper.readLargeFile(ANIME_DATA, 'data.*');
-    const animeName = data.map((item) => item.title);
-    return {
-      count: data.length,
-      list: animeName
-    };
-  } catch (error) {
-    CommonHelper.log(['Anime Helper', 'getAnimeListName', 'ERROR'], { message: `${error}` });
-    throw CommonHelper.errorResponse(error);
-  }
-};
+const ANIME_DATA = Path.join(
+  __dirname,
+  process.env.NODE_ENV === 'test' ? '../../assets/anime-test.json' : '../../assets/anime.json'
+);
+// const getAnimeListName = async () => {
+//   try {
+//     const data = await GeneralHelper.readLargeFile(ANIME_DATA, 'data.*');
+//     const animeName = data.map((item) => item.title);
+//     return {
+//       count: data.length,
+//       list: animeName
+//     };
+//   } catch (error) {
+//     CommonHelper.log(['Anime Helper', 'getAnimeListName', 'ERROR'], { message: `${error}` });
+//     throw CommonHelper.errorResponse(error);
+//   }
+// };
 
 const getAnimeListNameWithLimitOffset = async (limit,offset) => {
   try {
     const data = await GeneralHelper.readLargeFile(ANIME_DATA, 'data.*');
-    const animeName = data.map((item) => item.title);
-    const dataAnime = CommonHelper.getPaginatedData(animeName,limit,offset)
+    // const animeName = data.map((item) => item.title);
+    const dataAnime = CommonHelper.getPaginatedData(data,limit,offset)
     
     return {
       count: dataAnime.length,
@@ -120,7 +122,7 @@ const getAnimeBySeason = async (req)=>{
     const seasonAnime =  data.filter(item => item.animeSeason.season.toUpperCase() === season.toUpperCase());
     
     // jsonData.find(obj => obj.name === 'example2')?.id;
-    if (seasonAnime.length ===0) {
+    if (seasonAnime.length === 0) {
       return Boom.notFound(`Anime not found`);
     }
     // const animeList = animeDetail.map((item) => item.title);
@@ -161,4 +163,4 @@ const getAnimeByYear = async (req)=>{
     throw CommonHelper.errorResponse(error);
   }
 }
-module.exports = { getAnimeListName, getAnimeByName,getAnimeByDetail,getAnimeListNameWithLimitOffset,getAnimeByFilter, getAnimeBySeason, getAnimeByYear };
+module.exports = {  getAnimeByName,getAnimeByDetail,getAnimeListNameWithLimitOffset,getAnimeByFilter, getAnimeBySeason, getAnimeByYear };

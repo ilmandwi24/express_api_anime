@@ -1,0 +1,601 @@
+{
+  "license": {
+    "name": "GNU Affero General Public License v3.0",
+    "url": "https://github.com/manami-project/anime-offline-database/blob/master/LICENSE"
+  },
+  "lastUpdate": "2024-07-15",
+  "data": [
+    {
+      "id": 1001,
+      "sources": ["https://anime-planet.com/anime/alice-in-cyberland-dive-2"],
+      "title": "Alice in Cyberland: Dive 2",
+      "type": "SPECIAL",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "UNDEFINED",
+        "year": 1996
+      },
+      "picture": "https://cdn.anime-planet.com/anime/primary/alice-in-cyberland-dive-2-1.jpg?t=1632342096",
+      "thumbnail": "https://cdn.anime-planet.com/anime/primary/alice-in-cyberland-dive-2-1-285x399.jpg?t=1632342096",
+      "synonyms": [],
+      "relatedAnime": ["https://anime-planet.com/anime/alice-in-cyberland-dive-1"],
+      "tags": ["action", "based on a video game", "hacking", "monsters", "sci fi", "virtual reality"]
+    },
+    {
+      "id": 1002,
+      "sources": [
+        "https://anidb.net/anime/12330",
+        "https://anilist.co/anime/21569",
+        "https://anime-planet.com/anime/alice-in-deadly-school-the-animation",
+        "https://anisearch.com/anime/11685",
+        "https://kitsu.io/anime/12541",
+        "https://livechart.me/anime/10157",
+        "https://myanimelist.net/anime/33839",
+        "https://notify.moe/anime/Yf3khFiig"
+      ],
+      "title": "Alice in Deadly School",
+      "type": "OVA",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "WINTER",
+        "year": 2021
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/1614/110455.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1614/110455t.jpg",
+      "synonyms": [
+        "Alice in Deadly School The Animation",
+        "Gekidol",
+        "gekidol ova",
+        "アリスインデッドリースクール",
+        "アリスインデッドリースクール The Animation",
+        "ゲキドル"
+      ],
+      "relatedAnime": [
+        "https://anidb.net/anime/15734",
+        "https://anilist.co/anime/124131",
+        "https://anime-planet.com/anime/gekidol",
+        "https://anisearch.com/anime/11069",
+        "https://livechart.me/anime/10294",
+        "https://livechart.me/anime/1986",
+        "https://myanimelist.net/anime/32455",
+        "https://notify.moe/anime/N4j3pFimR"
+      ],
+      "tags": [
+        "acting",
+        "all-girls school",
+        "apocalypse",
+        "cgi",
+        "comedy",
+        "cute girls doing cute things",
+        "dancing",
+        "drama",
+        "female protagonist",
+        "food",
+        "gore",
+        "horror",
+        "idol",
+        "music",
+        "original work",
+        "pandemic",
+        "present",
+        "primarily female cast",
+        "school",
+        "school life",
+        "shounen",
+        "supernatural",
+        "survival",
+        "thriller",
+        "tragedy",
+        "violence",
+        "zombie",
+        "zombies"
+      ]
+    },
+    {
+      "id": 1003,
+      "sources": ["https://livechart.me/anime/10294"],
+      "title": "Alice in Deadly School Tokubetsu-ban: Ima, Stage no Maku ga Agaru",
+      "type": "SPECIAL",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "WINTER",
+        "year": 2021
+      },
+      "picture": "https://u.livechart.me/anime/10294/poster_image/687f2b92775156099c04e8b36f7a899d.jpg/large.jpg",
+      "thumbnail": "https://u.livechart.me/anime/10294/poster_image/687f2b92775156099c04e8b36f7a899d.jpg/small.jpg",
+      "synonyms": [
+        "Alice in Deadly School Special Edit -The Stage Begins-",
+        "アリスインデッドリースクール　特別版　～今、ステージの幕が上がる～"
+      ],
+      "relatedAnime": ["https://livechart.me/anime/10157", "https://livechart.me/anime/1986"],
+      "tags": ["music"]
+    },
+    {
+      "id": 1004,
+      "sources": [
+        "https://anidb.net/anime/11733",
+        "https://anilist.co/anime/100767",
+        "https://anime-planet.com/anime/alice-in-dreamland",
+        "https://anisearch.com/anime/10984",
+        "https://kitsu.io/anime/11506",
+        "https://livechart.me/anime/1904",
+        "https://myanimelist.net/anime/31941",
+        "https://notify.moe/anime/2J5CtKiiR"
+      ],
+      "title": "Alice in Dreamland",
+      "type": "MOVIE",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "FALL",
+        "year": 2015
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/1054/132914.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1054/132914t.jpg",
+      "synonyms": ["Alice in Dream Land", "アリス・イン・ドリームランド"],
+      "relatedAnime": [
+        "https://anime-planet.com/anime/kokusyoku-sumire-otona-ni-natta-alice",
+        "https://anisearch.com/anime/1055",
+        "https://myanimelist.net/anime/49367"
+      ],
+      "tags": [
+        "abstract",
+        "adventure",
+        "alice in wonderland",
+        "avant garde",
+        "avant-garde",
+        "fantasy",
+        "isekai",
+        "novel",
+        "person in a strange world",
+        "psychological",
+        "stop motion",
+        "stop motion animation"
+      ]
+    },
+    {
+      "id": 1005,
+      "sources": [
+        "https://anilist.co/anime/107257",
+        "https://anime-planet.com/anime/roughsketch-alice-in-voodooland",
+        "https://kitsu.io/anime/42784",
+        "https://myanimelist.net/anime/38906"
+      ],
+      "title": "Alice in Voodooland",
+      "type": "SPECIAL",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "FALL",
+        "year": 2016
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/1416/97880.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1416/97880t.jpg",
+      "synonyms": [
+        "Alice In Voodooland",
+        "RoughSketch feat Aikapin - Alice in Voodooland",
+        "RoughSketch: Alice in Voodooland"
+      ],
+      "relatedAnime": [],
+      "tags": [
+        "abstract",
+        "alice in wonderland",
+        "anthropomorphism",
+        "avant garde",
+        "body horror",
+        "fantasy",
+        "horror",
+        "music",
+        "violence"
+      ]
+    },
+    {
+      "id": 1006,
+      "sources": [
+        "https://anilist.co/anime/106924",
+        "https://anime-planet.com/anime/alice-no-kisetsu",
+        "https://myanimelist.net/anime/43433"
+      ],
+      "title": "Alice no Kisetsu",
+      "type": "SPECIAL",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "SPRING",
+        "year": 1988
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/1662/109763.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1662/109763t.jpg",
+      "synonyms": ["Minna no Uta", "Minna no Uta: Alice no Kisetsu", "アリスの季節"],
+      "relatedAnime": [],
+      "tags": ["alice in wonderland", "family friendly", "fantasy", "kids", "minna no uta", "music"]
+    },
+    {
+      "id": 1007,
+      "sources": [
+        "https://anidb.net/anime/13313",
+        "https://anilist.co/anime/99638",
+        "https://anime-planet.com/anime/alice-or-alice-siscon-nii-san-to-futago-no-imouto",
+        "https://anisearch.com/anime/12658",
+        "https://kitsu.io/anime/13679",
+        "https://livechart.me/anime/2810",
+        "https://myanimelist.net/anime/36001",
+        "https://notify.moe/anime/zE842Kiig"
+      ],
+      "title": "Alice or Alice",
+      "type": "TV",
+      "episodes": 12,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "SPRING",
+        "year": 2018
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/1033/116744.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1033/116744t.jpg",
+      "synonyms": [
+        "ALICE or ALICE",
+        "Alice or Alice: A Siscon Brother and His Twin Sisters",
+        "Alice or Alice: Siscon Nii-san to Futago no Imouto",
+        "Alice or Alice: Siscon Niisan to Futago no Imouto",
+        "Alice or Alice: Siscon Nīsan to Futago no Imōto",
+        "Alice or Alice: The Brother with a Sister Complex and His Twin Sisters",
+        "ありすorありす",
+        "ありすorありす ～シスコン兄さんと双子の妹～",
+        "앨리스 or 앨리스"
+      ],
+      "relatedAnime": [
+        "https://anime-planet.com/anime/alice-or-alice-siscon-nii-san-to-futago-no-imouto-recap",
+        "https://kitsu.io/anime/41488",
+        "https://myanimelist.net/anime/41689",
+        "https://notify.moe/anime/Opxqjqdmg"
+      ],
+      "tags": [
+        "4-koma manga",
+        "based on a manga",
+        "cgdct",
+        "chibi",
+        "chibi style",
+        "comedy",
+        "cute girls doing cute things",
+        "daily life",
+        "manga",
+        "nekomimi",
+        "present",
+        "romance",
+        "romantic comedy",
+        "seinen",
+        "short episodes",
+        "shounen",
+        "siblings",
+        "slice of life",
+        "twins"
+      ]
+    },
+    {
+      "id": 1008,
+      "sources": [
+        "https://anime-planet.com/anime/alice-or-alice-siscon-nii-san-to-futago-no-imouto-recap",
+        "https://kitsu.io/anime/41488",
+        "https://myanimelist.net/anime/41689",
+        "https://notify.moe/anime/Opxqjqdmg"
+      ],
+      "title": "Alice or Alice Recap",
+      "type": "SPECIAL",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "SPRING",
+        "year": 2018
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/1498/116745.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1498/116745t.jpg",
+      "synonyms": [
+        "ALICE or ALICE Recap",
+        "Alice or Alice Soushuu-hen",
+        "Alice or Alice: Compilation",
+        "Alice or Alice: Siscon Nii-san to Futago no Imouto Recap",
+        "ありすorありす",
+        "ありす第13話総集編"
+      ],
+      "relatedAnime": [
+        "https://anime-planet.com/anime/alice-or-alice-siscon-nii-san-to-futago-no-imouto",
+        "https://kitsu.io/anime/13679",
+        "https://myanimelist.net/anime/36001",
+        "https://notify.moe/anime/zE842Kiig"
+      ],
+      "tags": ["based on a manga", "cgdct", "chibi", "comedy", "recap", "slice of life"]
+    },
+    {
+      "id": 1009,
+      "sources": ["https://anime-planet.com/anime/alice-schach-and-the-magic-orchestra-killed-by-angel"],
+      "title": "Alice Schach and the Magic Orchestra: KILLED BY ANGEL",
+      "type": "SPECIAL",
+      "episodes": 1,
+      "status": "UNKNOWN",
+      "animeSeason": {
+        "season": "UNDEFINED",
+        "year": 2024
+      },
+      "picture": "https://cdn.anime-planet.com/anime/primary/alice-schach-and-the-magic-orchestra-killed-by-angel-1.webp",
+      "thumbnail": "https://cdn.anime-planet.com/anime/primary/alice-schach-and-the-magic-orchestra-killed-by-angel-1-285x399.webp",
+      "synonyms": [],
+      "relatedAnime": [],
+      "tags": ["explicit violence", "horror", "psychological"]
+    },
+    {
+      "id": 1010,
+      "sources": ["https://anime-planet.com/anime/alice-schach-and-the-magic-orchestra-queen-fly"],
+      "title": "Alice Schach and the Magic Orchestra: QUEEN FLY",
+      "type": "SPECIAL",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "UNDEFINED",
+        "year": 2021
+      },
+      "picture": "https://cdn.anime-planet.com/anime/primary/alice-schach-and-the-magic-orchestra-queen-fly-1.webp?t=1648425456",
+      "thumbnail": "https://cdn.anime-planet.com/anime/primary/alice-schach-and-the-magic-orchestra-queen-fly-1-285x399.webp?t=1648425456",
+      "synonyms": [],
+      "relatedAnime": [],
+      "tags": ["horror", "insects"]
+    },
+    {
+      "id": 1011,
+      "sources": [
+        "https://anidb.net/anime/3375",
+        "https://anilist.co/anime/8812",
+        "https://anime-planet.com/anime/alice-sos",
+        "https://anisearch.com/anime/3121",
+        "https://kitsu.io/anime/5500",
+        "https://livechart.me/anime/8638",
+        "https://myanimelist.net/anime/8812",
+        "https://notify.moe/anime/YtZWtKiig"
+      ],
+      "title": "Alice SOS",
+      "type": "TV",
+      "episodes": 28,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "SPRING",
+        "year": 1998
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/7/24323.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/7/24323t.jpg",
+      "synonyms": ["アリスSOS", "アリスＳＯＳ"],
+      "relatedAnime": [],
+      "tags": ["adventure", "alice in wonderland", "half-length episodes", "novel", "original work"]
+    },
+    {
+      "id": 1012,
+      "sources": [
+        "https://anidb.net/anime/3084",
+        "https://anilist.co/anime/18819",
+        "https://anime-planet.com/anime/alice-tantei-kyoku",
+        "https://anisearch.com/anime/437",
+        "https://kitsu.io/anime/9801",
+        "https://myanimelist.net/anime/18819",
+        "https://notify.moe/anime/nBjYpFimg"
+      ],
+      "title": "Alice Tantei Kyoku",
+      "type": "TV",
+      "episodes": 56,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "SPRING",
+        "year": 1995
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/4/50211.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/4/50211t.jpg",
+      "synonyms": [
+        "Alice Tanteikyoku",
+        "Alice's Detective Agency",
+        "Alice`s Detective Agency",
+        "Alice’s Detective Agency",
+        "アリス 探偵局",
+        "アリス探偵局"
+      ],
+      "relatedAnime": [],
+      "tags": [
+        "animal protagonists",
+        "comedy",
+        "crime fiction",
+        "detective",
+        "family friendly",
+        "fantasy",
+        "kids",
+        "mystery",
+        "non-human protagonists",
+        "short episodes"
+      ]
+    },
+    {
+      "id": 1013,
+      "sources": [
+        "https://anidb.net/anime/16408",
+        "https://anilist.co/anime/136149",
+        "https://anime-planet.com/anime/maboroshi",
+        "https://anisearch.com/anime/16416",
+        "https://kitsu.io/anime/44823",
+        "https://livechart.me/anime/10666",
+        "https://myanimelist.net/anime/49303",
+        "https://notify.moe/anime/edu76Fz7R"
+      ],
+      "title": "Alice to Therese no Maboroshi Koujou",
+      "type": "MOVIE",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "SUMMER",
+        "year": 2023
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/1429/137275.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/1429/137275t.jpg",
+      "synonyms": [
+        "Alice and Therese's Illusion Factory",
+        "Alice and Therese’s Illusion Factory",
+        "Alice to Teles no Maboroshi Koujou",
+        "Alice to Therese no Maboroshi Kōjō",
+        "Alice und Teres Fabrik der Illusionen",
+        "Maboroshi",
+        "Maboroshi – Az illúziók gyára",
+        "Maboroši: Továrna na iluze",
+        "The Illusion Factory of Alice and Therese",
+        "maboroshi",
+        "maboroshi：愛麗絲與特蕾絲的虛幻工廠",
+        "maboroshi：爱丽丝和特蕾丝的梦幻工厂",
+        "Мабороси",
+        "мабороші",
+        "מאבורושי",
+        "มาโบโรชิ",
+        "‎مابوروشي",
+        "アリスとテレスのまぼろし工場",
+        "마보로시"
+      ],
+      "relatedAnime": ["https://anime-planet.com/anime/miyuki-nakajima-shinon"],
+      "tags": [
+        "award winning",
+        "coming of age",
+        "deity",
+        "drama",
+        "fantasy",
+        "gods",
+        "heterosexual",
+        "incest",
+        "isekai",
+        "isolated society",
+        "love triangle",
+        "netflix original",
+        "original work",
+        "parenthood",
+        "romance",
+        "supernatural",
+        "supernatural drama",
+        "time manipulation",
+        "time skip",
+        "time travel",
+        "tragedy",
+        "trains",
+        "urban",
+        "urban fantasy"
+      ]
+    },
+    {
+      "id": 1014,
+      "sources": [
+        "https://anidb.net/anime/12526",
+        "https://anilist.co/anime/97821",
+        "https://anime-planet.com/anime/alice-and-zouroku",
+        "https://anisearch.com/anime/11935",
+        "https://kitsu.io/anime/12726",
+        "https://livechart.me/anime/2409",
+        "https://myanimelist.net/anime/34350",
+        "https://notify.moe/anime/l58mhKimg"
+      ],
+      "title": "Alice to Zouroku",
+      "type": "TV",
+      "episodes": 12,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "SPRING",
+        "year": 2017
+      },
+      "picture": "https://cdn.myanimelist.net/images/anime/2/84598.jpg",
+      "thumbnail": "https://cdn.myanimelist.net/images/anime/2/84598t.jpg",
+      "synonyms": [
+        "Alice & Zoroku",
+        "Alice & Zouroku",
+        "Alice & Zôroku",
+        "Alice and Zoroku",
+        "Alice and Zouroku",
+        "Alice to Zōroku",
+        "a&z",
+        "atoz",
+        "az",
+        "Алиса и Зороку",
+        "アリスと蔵六",
+        "爱丽丝与藏六",
+        "앨리스와 조로쿠"
+      ],
+      "relatedAnime": ["https://anisearch.com/anime/12590"],
+      "tags": [
+        "action",
+        "action comedy",
+        "adventure",
+        "alice in wonderland",
+        "based on a manga",
+        "comedy",
+        "contemporary fantasy",
+        "cute girls doing cute things",
+        "drama",
+        "family life",
+        "fantasy",
+        "female protagonist",
+        "found family",
+        "fugitive",
+        "hero of strong character",
+        "human experimentation",
+        "magic",
+        "manga",
+        "mystery",
+        "parenting",
+        "present",
+        "primarily female cast",
+        "psi-powers",
+        "rehabilitation",
+        "sci-fi",
+        "seinen",
+        "single parent",
+        "slapstick",
+        "slice of life",
+        "super power",
+        "supernatural",
+        "superpowers",
+        "tsundere",
+        "twins",
+        "urban fantasy"
+      ]
+    },
+    {
+      "id": 1015,
+      "sources": ["https://anisearch.com/anime/12590"],
+      "title": "Alice to Zouroku: Dai 2 Bu Housou Chokuzen Tokuban",
+      "type": "TV",
+      "episodes": 1,
+      "status": "FINISHED",
+      "animeSeason": {
+        "season": "SPRING",
+        "year": 2017
+      },
+      "picture": "https://cdn.anisearch.com/images/anime/cover/12/12590_600_300.webp",
+      "thumbnail": "https://cdn.anisearch.com/images/anime/cover/12/12590_600.webp",
+      "synonyms": [
+        "Alice & Zoroku Especial: Anticipando la 2ª parte",
+        "Alice & Zoroku Special vor der Ausstrahlung von Teil 2",
+        "Alice & Zoroku Special: Looking Ahead to Part 2",
+        "Alice & Zoroku Speciale: Aspettando la seconda parte",
+        "Alice & Zoroku: Épisode spécial",
+        "Alice to Zōroku: Dai 2 Bu Hōsō Chokuzen Tokuban",
+        "アリスと蔵六 第2部放送直前特番"
+      ],
+      "relatedAnime": ["https://anisearch.com/anime/11935"],
+      "tags": [
+        "action",
+        "action comedy",
+        "adventure",
+        "comedy",
+        "contemporary fantasy",
+        "drama",
+        "fantasy",
+        "hero of strong character",
+        "magic",
+        "present",
+        "psi-powers",
+        "slice of life",
+        "tsundere"
+      ]
+    }
+  ]
+}
