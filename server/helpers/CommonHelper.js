@@ -133,4 +133,7 @@ const readFromFile = (file, raw = false) =>
     });
   });
 
-module.exports = { log, logRequest, unifyResponse, errorResponse, preHandler, readFromFile };
+
+const getPaginatedData = (data, limit, offset) => data.slice(offset, offset + limit)
+
+module.exports = { log, logRequest, unifyResponse, errorResponse, preHandler, readFromFile,getPaginatedData };
