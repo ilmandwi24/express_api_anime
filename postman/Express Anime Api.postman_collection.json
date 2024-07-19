@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "80cac355-e26d-4486-afaf-7518e9c8017f",
+		"name": "Express Anime Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36792217"
+	},
+	"item": [
+		{
+			"name": "Seacrh Anime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "naruto",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{prod_url}}/api/v1/anime/search",
+					"host": [
+						"{{prod_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"anime",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Naruto",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Detail Anime",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{prod_url}}/api/v1/anime/detail/abc",
+					"host": [
+						"{{prod_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"anime",
+						"detail",
+						"abc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ANIME LIST",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "limit",
+							"value": "20",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "0",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{prod_url}}/api/v1/anime/list",
+					"host": [
+						"{{prod_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"anime",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Anime",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"genre\": [\"travel\",\"tournaments\"]\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_url}}/api/v1/anime/filter",
+					"host": [
+						"{{prod_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"anime",
+						"filter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SEARCH ANIME SEASON",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"season\" : \"SPRING\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_url}}/api/v1/anime/season",
+					"host": [
+						"{{prod_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"anime",
+						"season"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SEARCH ANIME YEAR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"year\": 2002\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{prod_url}}/api/v1/anime/year",
+					"host": [
+						"{{prod_url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"anime",
+						"year"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
