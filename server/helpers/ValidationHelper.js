@@ -37,7 +37,7 @@ const getFilterAnimeValidation = (data) => {
 
 const getSeasonAnimeValidation = (data) => {
   const schema = Joi.object({
-    season: Joi.string().valid('SPRING', 'SUMMER', 'FALLEN', 'WINTER').required(),
+    season: Joi.string().valid('SPRING', 'SUMMER', 'FALLEN', 'WINTER','UNKNOWN').required(),
   });
 
   if (schema.validate(data).error) {

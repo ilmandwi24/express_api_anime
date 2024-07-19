@@ -25,6 +25,26 @@ describe('Anime', () => {
       const response = await Request(server).get('/api/v1/anime/list');
       expect(response.status).toBe(200);
     });
+
+    test('should return 200', async () => {
+      // jest.spyOn(GeneralHelper, 'readLargeFile').mockResolvedValue(mockAnime)
+      const response = await Request(server).get('/api/v1/anime/list').query({limit:1});
+      expect(response.status).toBe(200);
+    });
+    test('should return 200', async () => {
+      // jest.spyOn(GeneralHelper, 'readLargeFile').mockResolvedValue(mockAnime)
+      const response = await Request(server).get('/api/v1/anime/list').query({offset:1});
+      expect(response.status).toBe(200);
+    });
+
+    test('should return 500', async () => {
+      const mockError = new Error('An internal server error occurred');
+      jest.spyOn(GeneralHelper, 'readLargeFile').mockImplementationOnce(() => {
+        throw mockError;
+      });
+      const response = await Request(server).get('/api/v1/anime/list');
+      expect(response.status).toBe(500);
+    });
   });
 
   describe('Search Anime', () => {
@@ -130,15 +150,16 @@ describe('Anime', () => {
       expect(response.status).toBe(500);
     });
 
+
       test('should return 400', async () => {
         const response = await Request(server).post('/api/v1/anime/season').send({season: 'abcd'});
         expect(response.status).toBe(400);
       });
 
-    // test('should return 404, anime not found', async () => {
-    //   const response = await Request(server).post('/api/v1/anime/season').send({season: 'WINTER'});
-    //   expect(response.status).toBe(404);
-    // });
+    test('should return 404, anime not found', async () => {
+      const response = await Request(server).post('/api/v1/anime/season').send({season: 'UNKNOWN'});
+      expect(response.status).toBe(404);
+    });
 
     test('should return 200', async () => {
       const response = await Request(server).post('/api/v1/anime/season').send({season:"WINTER"});
@@ -163,10 +184,10 @@ describe('Anime', () => {
         expect(response.status).toBe(400);
       });
 
-    // test('should return 404, anime not found', async () => {
-    //   const response = await Request(server).post('/api/v1/anime/season').send({season: 'fall'});
-    //   expect(response.status).toBe(404);
-    // });
+    test('should return 404, anime not found', async () => {
+      const response = await Request(server).post('/api/v1/anime/year').send({year: 1});
+      expect(response.status).toBe(404);
+    });
 
     test('should return 200', async () => {
       const response = await Request(server).post('/api/v1/anime/year').send({year:2021});
